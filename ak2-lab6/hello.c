@@ -44,7 +44,7 @@ static int __init hello_init(void)
     for(i=0; i < amount; i++)
     {
         var_1->next = kmalloc(sizeof(struct head_list), GFP_KERNEL);
-        if (i == 6) var_1->next = NULL;
+        if (i == 6) var_1 = NULL;
         var_1->time = ktime_get();
         printk(KERN_EMERG "Hello, world!\n");
         var_2 = var_1;
