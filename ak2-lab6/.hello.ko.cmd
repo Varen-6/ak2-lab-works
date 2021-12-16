@@ -1,0 +1,1 @@
+cmd_/home/varen6/ak2-lab-works/ak2-lab6/hello.ko := ccache arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/varen6/ak2-lab-works/ak2-lab6/hello.ko /home/varen6/ak2-lab-works/ak2-lab6/hello.o /home/varen6/ak2-lab-works/ak2-lab6/hello.mod.o ;  true
